@@ -6,15 +6,34 @@
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:darkkhaki;
 }
 
 
 .container {
     width: 400px;
     height: 400px;
-    margin: 20px ;   
+    margin: 90px ;   
     background-color: #f9f9f9;
     border: 2px solid black;
+    cursor: pointer;
   }
+
+
+.buttons  {
+    margin: 40px;
+    gap: 30px;
+}
+
+.buttons button{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: chocolate;
+    color: #f9f9f9;
+    cursor: pointer; 
+}
+
+
